@@ -1,0 +1,43 @@
+{
+  "name": "mc-benchmark",
+  "version": "1.0.4",
+  "description": "Build charts about load time of Minecraft modpack.",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft",
+    "chart",
+    "quickchart",
+    "benchmark",
+    "mods",
+    "debug",
+    "modpack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "color": "^4.1.0",
+    "color-hash": "^2.0.1",
+    "lodash": "^4.17.21",
+    "memoizee": "^0.4.15",
+    "numeral": "^2.0.6",
+    "yargs": "^17.3.1"
+  },
+  "files": [
+    "!examples"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xikaro/mc-benchmark"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "@types/yargs": "^17.0.8",
+    "typescript": "^4.5.4"
+  }
+}
